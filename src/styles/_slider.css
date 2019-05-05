@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     margin: 0 0;
+    padding-bottom: 50px;
 }
 
 .slick-slide {
@@ -29,3 +30,12 @@
 .slick-current{
     opacity: 1;
 }
+
+.text-block{
+    text-align: center; color: #121C25; font-family: Helvetica;
+    filter: alpha(opacity = 40);
+    background-color: rgba(206, 222, 231, 0.315);
+    clear: both;
+    
+}
+

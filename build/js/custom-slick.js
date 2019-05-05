@@ -3,6 +3,7 @@
 $('.slider-area').slick({
         autoplay: true,
         autoplaySpeed: 2000,
+        pauseOnHover:false,
         
 centerMode: true,
 centerPadding: '60px',

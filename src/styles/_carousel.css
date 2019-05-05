@@ -2,7 +2,8 @@
     background: #F4F4F4;
     margin: 0;
     width: 100vw;
-
+    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .carousel-header{
