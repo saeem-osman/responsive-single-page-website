@@ -1,0 +1,52 @@
+.carousel{
+    background: #F4F4F4;
+    margin: 0;
+    width: 100vw;
+
+}
+
+.carousel-header{
+    margin-left: 250px;
+}
+.carousel-para{
+    margin-left: 250px;
+    width: 500px;
+    letter-spacing: 0;
+}
+.carousel-title{
+    padding-top: 50px;
+    font-family: Helvetica;
+    font-size: 40px;
+    color: #121C25;
+    letter-spacing: 0;
+    
+}
+
+.carousel-text{
+    font-family: SourceSansPro-Regular;
+    font-size: 16px;
+    color: #61686D;
+
+    line-height: 28px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 375px){
+    .carousel-para{
+        max-width: 340px;
+        margin-left: 10px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .carousel-header{
+        margin-left: 50px;
+    }
+    .carousel-para{
+        margin-left: 50px;
+        max-width: 350px;
+    }
+}
+

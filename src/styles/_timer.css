@@ -1,0 +1,40 @@
+
+
+.timer {
+    padding: 10px;
+    padding-top: 50px;
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin-left: -10px;
+}
+
+.timer li{
+    display: inline;
+    font-size: 2.2em;
+    padding: 28px;
+}
+
+.timetag{
+    margin-top: -20px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between 2px;
+}
+
+.timetag li{
+    margin-left: -15px;
+    font-size: 20px;
+    display: inline;
+    padding: 23px;
+}
+
+@media screen and (max-width: 640px){
+    .timer{
+        transform: scale(.8);
+    }
+    .timer li{
+        padding: 38px;
+    }
+}

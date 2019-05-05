@@ -1,0 +1,64 @@
+/*different cloud has different motion speed */
+
+
+@keyframes animateCloud1{
+    0%{margin-left: 25%;}
+    30%{margin-left: -115px;}
+    30.01%{margin-left: 100%;}
+    100%{margin-left: 25%;}
+
+}
+
+@keyframes animateCloud2{
+    0%{margin-left: 100%;}
+    100%{margin-left: -30;}
+
+}
+
+@keyframes animateCloud3{
+    0%{margin-left: 50%;}
+    51.1%{margin-left: -20px;}
+    51.101%{margin-left: 100%}
+    100%{margin-left: 50%;}
+
+}
+@keyframes animateCloud4{
+    0%{margin-left: 100%; opacity: 0;}
+    15%{opacity: 1; transition: opacity 2s linear;}
+    100%{margin-left: -100px;}
+
+}
+
+@keyframes animateCloude5{
+    0%{margin-left: 100%; opacity: 0;}
+    15%{opacity: 1; transition: opacity 2s linear;}
+    100%{margin-left: -100px};
+}
+
+.cloud1{
+    margin-top: 170px;
+    animation: animateCloud1 22s linear infinite;
+    
+}
+.cloud2{
+    margin-top: 60px;
+    animation: animateCloud2 30s linear infinite;
+    transform: scale(1.4);
+}
+.cloud3{
+    margin-top: 260px;
+    animation: animateCloud3 17s linear infinite;
+    
+}
+.cloude{
+    margin-top: 230px;
+    animation: animateCloud4 24s linear infinite;
+    
+
+}
+
+.cloud5{
+    margin-top: 140px;
+    animation: animateCloude5 28s linear infinite;
+    
+}
