@@ -3,7 +3,7 @@ import "./style.css";
 
 //timer clock
 
-const countDate = new Date("May 20, 2019 00:55:25").getTime();
+const countDate = new Date("October 20, 2019 00:55:25").getTime();
 
 window.onload =  setInterval(()=>{
     let current = Date.now();
